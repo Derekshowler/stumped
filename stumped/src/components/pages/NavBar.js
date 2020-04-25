@@ -10,7 +10,7 @@ import {
 export default function NavbarStyledComponents() {
     return (
         <Nav>
-            <NavTitle to="/">The Nightly</NavTitle>
+            <NavTitle to="/">Stumped</NavTitle>
             <NavItems>
                 <NavItem to="/explore">Explore The Community</NavItem>
                 <NavItemButton to = "/login">Login</NavItemButton>

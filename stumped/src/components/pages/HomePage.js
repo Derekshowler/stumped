@@ -13,7 +13,7 @@ import {fullMoon} from "../images/full-moon-test.jpg";
 export default function HomePage() {
     return (
         <>
-        <h1>Stumped</h1>
+        <h1>Featured:</h1>
         <HomePageContainer>
                 <HomePageFeaturedContainer>
                         <HomePageFeaturedTitle>

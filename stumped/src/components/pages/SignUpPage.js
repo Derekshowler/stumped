@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 
-class ExplorePage extends React.Component {
+class SignUpPage extends React.Component {
     submit = data => {
         console.log(data);
 };
@@ -9,11 +9,11 @@ class ExplorePage extends React.Component {
 render() {
     return (
        <div>
-            <h1>Explore page</h1>
+            <h1>Sign up to start contributing!</h1>
 
         </div>
         );
     }
 }
 
-export default ExplorePage;
+export default SignUpPage;

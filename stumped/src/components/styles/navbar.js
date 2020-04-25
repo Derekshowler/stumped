@@ -52,3 +52,13 @@ export const NavItemButton = styled(NavItem)`
             color: white;
         `}
 `;
+
+export const NavItemPrimaryButton = styled(NavItem)`
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #663399;
+    background-color: #663399;
+    color: white;
+`;

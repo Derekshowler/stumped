@@ -4,7 +4,8 @@ import {
     NavTitle,
     NavItems,
     NavItem,
-    NavItemButton
+    NavItemButton,
+    NavItemPrimaryButton
 } from '../styles/navbar';
 
 export default function NavbarStyledComponents() {
@@ -14,7 +15,7 @@ export default function NavbarStyledComponents() {
             <NavItems>
                 <NavItem to="/explore">Explore The Community</NavItem>
                 <NavItemButton to = "/login">Login</NavItemButton>
-                <NavItemButton primary>Sign Up!</NavItemButton>
+                <NavItemPrimaryButton to = "/register">Sign Up!</NavItemPrimaryButton>
             </NavItems>
         </Nav>
     );
